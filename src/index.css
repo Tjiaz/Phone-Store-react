@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body { 
+  background-color: white;
+}
+.todo-item {
+  text-align: center;
+  font-weight: bold;
+  background-color: wheat;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 20px;
+  box-shadow:  
+  /* The top layer shadow */
+  0 1px 1px rgba(0,0,0,0.15),
+  /* The second layer */
+  0 10px 0 -5px #eee,
+  /* The second layer shadow */
+  0 10px 1px -4px rgba(0,0,0,0.15),
+  /* The third layer*/
+  0 20px 0 -10px #eee,
+  /* The third layer shadow */
+  0 20px 1px -9px rgba(0,0,0,0.15);
+  
+
+} 
+header { 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+}
+
+header > img { 
+  height: 80%;
+  margin-left: 10%;
+}
+
+header > p { 
+  font-family: VT323, monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme { 
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img { 
+  width: 100%
+}
